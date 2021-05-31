@@ -1,0 +1,21 @@
+{
+  "name": "actividad-backend",
+  "version": "1.0.0",
+  "description": "Servidor web usando Nodejs & Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Backend"
+  ],
+  "author": "Diego",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
